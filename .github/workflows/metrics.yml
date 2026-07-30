@@ -4,23 +4,36 @@ on:
   schedule:
     - cron: "15 4 * * *"
   workflow_dispatch:
-  push:
-    branches:
-      - main
 
 permissions:
   contents: write
 
+concurrency:
+  group: profile-metrics
+  cancel-in-progress: true
+
 jobs:
-  generate-metrics:
+  generate:
     runs-on: ubuntu-latest
+
     steps:
-      - name: Generate full-year contribution metrics
+      - name: Check the metrics token
+        env:
+          METRICS_TOKEN: ${{ secrets.METRICS_TOKEN }}
+        run: |
+          if [ -z "$METRICS_TOKEN" ]; then
+            echo "::error::Create a repository secret named METRICS_TOKEN before running this workflow."
+            exit 1
+          fi
+
+      - name: Generate the public contribution calendar
         uses: lowlighter/metrics@latest
         with:
           token: ${{ secrets.METRICS_TOKEN }}
+          committer_token: ${{ secrets.GITHUB_TOKEN }}
           user: ashurafu04
           filename: github-metrics.svg
           base: ""
+          config_timezone: Africa/Casablanca
           plugin_isocalendar: yes
           plugin_isocalendar_duration: full-year
