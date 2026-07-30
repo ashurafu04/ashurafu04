@@ -12,12 +12,14 @@ Rabat, Morocco · Engineering degree candidate at EMSI Rabat, class of 2027 · O
 
 </div>
 
-What I have been building
+A year of engineering activity
 
-Most of my current production work lives in private or client owned repositories. This graph shows the public part of my activity and the consistency behind it.
+A large part of my production work lives in private or client owned repositories. This calendar reflects the contributions GitHub recognizes across my account over the last twelve months. Private work appears only as anonymized activity, so the code, repository names, and project details remain confidential.
 
 <p align="center">
-  <img src="https://github-readme-activity-graph.vercel.app/graph?username=ashurafu04&theme=github-compact&hide_border=true&area=true&custom_title=Public%20Engineering%20Activity" alt="Achraf Malki public GitHub activity" width="100%" />
+  <a href="https://github.com/ashurafu04">
+    <img src="https://ghchart.rshah.org/2ea043/ashurafu04" alt="Achraf Malki GitHub contributions over the last year" width="100%" />
+  </a>
 </p>
 
 A little about me
