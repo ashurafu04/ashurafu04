@@ -1,5 +1,5 @@
 <div align="center">
-  <img src="./h04-logo.png" alt="H04 logo" width="120" />
+  <img src="./me.png" alt="H04 logo" width="120" />
 
   <h1>Achraf Malki</h1>
   <h3>Software Engineer and IT Consultant</h3>
