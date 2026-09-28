@@ -44,7 +44,7 @@ Much of my work for employers and clients lives in private repositories. The exp
 
 ## Selected experience
 
-### Nortis Studio · MAGMA
+### <img src="./nortis-logo.png" alt="" height="30" /> Nortis Studio · MAGMA
 
 **Software Engineer, AI & Cloud** · January 2026–present
 
@@ -54,7 +54,7 @@ I architected its Portier/Worker orchestration model, strict idempotence rules, 
 
 `FastAPI` · `Node.js` · `PostgreSQL` · `pgvector` · `n8n` · `LLM` · `RAG`
 
-### Chamiong
+### <img src="./chamiong-corp.png" alt="" height="30" /> Chamiong
 
 **Full Stack Engineer, Headless ERP & B2B** · November 2025–present
 
@@ -64,7 +64,7 @@ The public catalogue stays fast and indexable, while prices and stock remain beh
 
 `Next.js` · `React` · `TypeScript` · `Sanity` · `Odoo` · `JSON-RPC`
 
-### DXC Technology Morocco
+### <img src="./logo-dxc.png" alt="" height="30" /> DXC Technology Morocco
 
 **Engineering Intern, Business Intelligence & Business Applications** · July 2026–September 2026  
 *Insurance Service Line · Run teams*
@@ -75,7 +75,7 @@ It spans the competency model, data pipeline, Power BI dashboards, and the appli
 
 `Power BI` · `DAX` · `Power Apps` · `Dataverse` · `Data modelling`
 
-### Previzma
+### <img src="./previzma-logo.png" alt="" height="30" /> Previzma
 
 **Independent engineering project, B2B sales intelligence** · April 2026–present
 
@@ -95,7 +95,7 @@ The published MVP uses a statistical forecasting baseline by default. A trained 
 
 ## Other experience that shaped how I build
 
-### General Secretariat of the Government of Morocco
+### <img src="./sgg-logo.png" alt="" height="30" /> General Secretariat of the Government of Morocco
 
 **Software Engineering Intern, ERP scope with team leadership responsibilities** · July–August 2025
 
@@ -107,7 +107,7 @@ That experience reinforced a principle I still use: begin with the organisation,
 
 **Independent Consultant and Full Stack Developer** · June 2025–present
 
-Alongside my main roles, I have delivered and explored products in different environments. **Morocco Atlas Adventure** developed my experience in multilingual delivery, SEO, deployment, and client handover. **Bnin** pushed me toward React Native, contextual AI, mobile product thinking, and local-first user experience. Earlier projects including **Cashaura** and **Listo** helped build my foundations in Java architecture, Django REST APIs, authentication, relational modelling, and collaborative delivery.
+Alongside my main roles, I have delivered and explored products in different environments. **Morocco Atlas Adventure** developed my experience in multilingual delivery, SEO, deployment, and client handover. **Bnin** and **SkillBridge** pushed me toward React Native, contextual AI, mobile product thinking, and local-first user experience. Earlier projects including **Cashaura**, **Listo**, **NomadAI** and **Journeo** helped build my foundations in Java architecture, Django REST APIs, authentication, relational modelling, and collaborative delivery.
 
 ## Toolkit
 
