@@ -60,7 +60,7 @@ I architected its Portier/Worker orchestration model, strict idempotence rules, 
 
 I lead the digital decoupling of an industrial company whose operational core remains in Odoo. The architecture separates a Next.js presentation layer and Sanity-managed content from the ERP, connecting them through resilient JSON-RPC integrations.
 
-The public catalogue stays fast and indexable, while prices and stock remain behind authenticated access. The experience supports French, English, and Arabic—including RTL—and gives the client direct control over day-to-day content and catalogue management.
+The public catalogue stays fast and indexable, while prices and stock remain behind authenticated access. The experience supports French, English, and Arabic, including RTL, and gives the client direct control over day-to-day content and catalogue management.
 
 `Next.js` · `React` · `TypeScript` · `Sanity` · `Odoo` · `JSON-RPC`
 
@@ -71,7 +71,7 @@ The public catalogue stays fast and indexable, while prices and stock remain beh
 
 I am building a management system for competency coverage in production teams. The work starts with operational data and business-rule validation, then turns that information into indicators managers can use.
 
-It spans the competency model, data pipeline, Power BI dashboards, and the application layer that maintains source data. I focus on the full path from data entry to management decision—not a dashboard treated as an isolated deliverable.
+It spans the competency model, data pipeline, Power BI dashboards, and the application layer that maintains source data. I focus on the full path from data entry to management decision, not a dashboard treated as an isolated deliverable.
 
 `Power BI` · `DAX` · `Power Apps` · `Dataverse` · `Data modelling`
 
@@ -89,7 +89,7 @@ Its three repositories reflect deliberate ownership boundaries:
 | [FastAPI ML service](https://github.com/ashurafu04/previzma-ml-service) | Forecasting and simulation behind an HTTP contract, separate from authentication and business persistence |
 | [Angular frontend](https://github.com/ashurafu04/previzma-frontend) | The user-facing application for exploring sales data, forecasts, alerts, and scenarios |
 
-The published MVP uses a statistical forecasting baseline by default. A trained LightGBM model is an evaluated, gated option—not a production capability I claim simply because the code supports it. The system remains under active development and hardening; its repositories document both implemented behaviour and known follow-up work.
+The published MVP uses a statistical forecasting baseline by default. A trained LightGBM model is an evaluated, gated option, not a production capability I claim simply because the code supports it. The system remains under active development and hardening; its repositories document both implemented behaviour and known follow-up work.
 
 `Java 21` · `Spring Boot` · `Spring Security` · `PostgreSQL` · `FastAPI` · `Angular 22` · `REST`
 
@@ -101,7 +101,7 @@ The published MVP uses a statistical forecasting baseline by default. A trained 
 
 I contributed to an end-to-end Odoo implementation for the Direction of the Official Printing Office. The scope included business analysis, BPMN, RBAC, approval workflows, custom Python modules, PostgreSQL, documentation, and knowledge transfer across sales, subscriptions, stock, manufacturing, accounting, CRM, and HR.
 
-That experience reinforced a principle I still use: begin with the organisation—its language, responsibilities, exceptions, and operational sequence—before designing the software around it.
+That experience reinforced a principle I still use: begin with the organisation, its language, responsibilities, exceptions, and operational sequence, before designing the software around it.
 
 ### Independent consulting & product work
 
