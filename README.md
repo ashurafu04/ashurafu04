@@ -1,162 +1,95 @@
 <div align="center">
-  <img src="./malki-achraf.png" alt="H04 logo" width="130" />
+  <img src="./malki-achraf.png" alt="Achraf Malki logo" width="100" />
 
   <h1>Achraf Malki</h1>
-  <h3>Software Engineer and IT Consultant</h3>
+
+  <p><strong>Software Engineer & IT Consultant</strong><br />
+  Java / Spring Boot · Enterprise integration · Applied AI</p>
 
   <p>
-    I build resilient backend systems, AI workflows, ERP integrations, and digital products that help businesses operate with more clarity and autonomy.
+    I design backend systems that connect business workflows, reliable data,
+    and useful decision-making tools.
   </p>
 
   <p>
-    Rabat, Morocco &nbsp;•&nbsp; EMSI Rabat, class of 2027 &nbsp;•&nbsp; Open to a PFE that can grow into a long term engineering role
+    Rabat, Morocco · EMSI engineering class of 2027 · Open to a final-year internship (PFE)
   </p>
 
   <p>
-    <a href="https://achrafmalki.dev"><img src="https://img.shields.io/badge/Portfolio-achrafmalki.dev-111111?style=for-the-badge&logo=vercel&logoColor=white" alt="Portfolio" /></a>
-    <a href="https://www.linkedin.com/in/achraf-malki"><img src="https://img.shields.io/badge/LinkedIn-Achraf%20Malki-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn" /></a>
-    <a href="mailto:achrafmalki.eng@gmail.com"><img src="https://img.shields.io/badge/Email-achrafmalki.eng%40gmail.com-EA4335?style=for-the-badge&logo=gmail&logoColor=white" alt="Email" /></a>
+    <a href="https://achrafmalki.dev">Portfolio</a> ·
+    <a href="https://www.linkedin.com/in/achraf-malki">LinkedIn</a> ·
+    <a href="mailto:achrafmalki.eng@gmail.com">Email</a>
   </p>
 </div>
 
-Most of my strongest production work lives in private or client owned repositories. What I show here is the public face of a much larger body of engineering work.
+---
 
-What is visible on GitHub
+## Featured public project
 
-This calendar gives a one year view of the contribution rhythm attached to my account. When private contributions are enabled in GitHub settings, private work still contributes to the activity volume while keeping repositories and code confidential.
+### Previzma — B2B sales intelligence
 
-<p align="center">
-  <a href="https://github.com/ashurafu04">
-    <img src="https://ghchart.rshah.org/2ea043/ashurafu04" alt="Achraf Malki GitHub contributions over one year" width="100%" />
-  </a>
-</p>
+Previzma is an actively developed MVP that turns industrial sales history into management KPIs, forecasts, operational alerts, and What-If simulations.
 
-How I think about engineering
+```text
+Angular 22 → Java 21 / Spring Boot 3 → PostgreSQL
+                         └──────────→ FastAPI ML service
+```
 
-I am most engaged when software architecture meets business reality. Before choosing a framework or drawing a service boundary, I try to understand how the organisation works, where information gets lost, what cannot fail, and which decisions the system is supposed to support.
+The Spring Boot backend owns the business domain, JWT authentication, RBAC, company scoping, persistence, and orchestration. FastAPI is a separate calculation service: its default forecast is a statistical baseline, while an offline-trained LightGBM model is used only if it passes a promotion gate. Angular presents the results without calling the database or ML service directly.
 
-That mindset has taken me toward backend architecture, enterprise integration, cloud delivery, and applied AI. I care about traceable workflows, strong data ownership, secure system boundaries, and products that remain understandable after the first release.
+The repositories document what works, how the services interact, and what still needs hardening:
 
-Selected experience
+- [Spring Boot backend](https://github.com/ashurafu04/previzma-backend) — domain API, security, persistence, and ML orchestration
+- [FastAPI ML service](https://github.com/ashurafu04/previzma-ml-service) — forecasting, backtesting, model comparison, and deterministic simulations
+- [Angular frontend](https://github.com/ashurafu04/previzma-frontend) — dashboards, forecasts, simulations, and model-quality views
 
-<table>
-<tr>
-<td width="50%" valign="top">
+**Status:** Public MVP, not a production deployment. Integration testing and operational hardening remain in progress.
 
-<h3>Nortis Studio · MAGMA</h3>
+## Selected engineering work
 
-<strong>Software Engineer, AI and Cloud</strong><br>Nortis Studio<br><sub>January 2026<br>Present</sub>
+Most client and employer code is private. These are the problems and responsibilities I can describe publicly; more context is available on my [portfolio](https://achrafmalki.dev).
 
-<p>At Nortis Studio, I architect the core of MAGMA, a B2B intelligence platform designed to coordinate concurrent AI workflows. The difficult part is not simply invoking a model. It is making each operation repeatable, traceable, isolated by tenant, and safe when a request is retried or interrupted.</p>
+### Nortis Studio · MAGMA
+*Software Engineer, AI & Cloud · January 2026–present*
 
-<p>I designed the Portier and Worker orchestration model, strict idempotence rules, PostgreSQL isolation through Row Level Security, an immutable audit trail, and a Zero PII data lifecycle. The AI layer combines retrieval, structural validation, and hallucination controls so that its output remains dependable in a business setting.</p>
+Architecting a multi-tenant B2B intelligence platform for concurrent AI workflows. My work focuses on the Portier/Worker orchestration model, idempotent operations, tenant isolation, auditability, and a data-minimizing lifecycle. The AI layer combines retrieval with structural validation and controls designed to make outputs more dependable.
 
-<p><strong>Technologies</strong><br>
-<code>FastAPI</code> <code>Node.js</code> <code>PostgreSQL</code> <code>pgvector</code> <code>n8n</code> <code>LLM</code> <code>RAG</code></p>
+`FastAPI` · `Node.js` · `PostgreSQL` · `pgvector` · `n8n` · `RAG`
 
-</td>
-<td width="50%" valign="top">
+### Chamiong
+*Full-Stack Engineer, Headless ERP & B2B · November 2025–present*
 
-<h3>Chamiong</h3>
+Decoupling an industrial company’s customer-facing experience from its Odoo operational core. I built a Next.js presentation layer, Sanity-managed content, and JSON-RPC integrations while keeping prices and stock behind authentication. The experience supports French, English, and Arabic, including RTL layout.
 
-<strong>Full Stack Engineer, Headless ERP and B2B</strong><br>Chamiong<br><sub>November 2025<br>Present</sub>
+`Next.js` · `React` · `TypeScript` · `Sanity` · `Odoo`
 
-<p>For Chamiong, I lead the digital decoupling of an industrial company whose operational core remains inside Odoo. I built a Next.js presentation layer and a Sanity content layer, then connected both to the ERP through resilient JSON RPC connectors.</p>
+### DXC Technology Morocco
+*Engineering Intern, Business Intelligence & Applications · July 2026–present*
 
-<p>The result keeps the public catalogue fast and indexable while protecting prices and stock behind authentication. It supports French, English, and Arabic with proper RTL behaviour, and gives the client close to full operational autonomy over day to day content and catalogue management.</p>
+Building a competency-coverage management system for production teams—from operational data and business rules through the data model, Power BI indicators, and the application used to maintain source records.
 
-<p><strong>Technologies</strong><br>
-<code>Next.js</code> <code>React</code> <code>TypeScript</code> <code>Sanity</code> <code>Odoo</code> <code>JSON RPC</code></p>
+`Power BI` · `DAX` · `Power Apps` · `Dataverse`
 
-</td>
-</tr>
-<tr>
-<td width="50%" valign="top">
+Earlier, at the General Secretariat of the Government of Morocco, I contributed to an Odoo implementation spanning business analysis, BPMN, RBAC, approval workflows, custom modules, and knowledge transfer. That work reinforced a principle I still use: understand the organisation and its exceptions before designing the software boundary.
 
-<h3>DXC Technology Morocco</h3>
+## How I approach systems
 
-<strong>Engineering Intern, Business Intelligence and Business Applications</strong><br>Insurance Service Line, Run teams<br><sub>July 2026<br>Present</sub>
+- Start with the domain, data ownership, and failure modes—not a preferred framework.
+- Keep authorization and tenant isolation at the backend boundary; UI checks are for usability.
+- Make engineering claims traceable through architecture notes, tests, explicit limitations, and documented decisions.
 
-<p>At DXC Technology Morocco, I am building a management system for competency coverage inside production teams. I started from raw operational data, validated the business logic against production records, and translated that logic into indicators management can actually use.</p>
+## Core toolkit
 
-<p>The work spans the data pipeline, the competency model, Power BI dashboards, and the application layer used to maintain the source data. What interests me most is the full chain from data entry to management decision, rather than treating the dashboard as an isolated deliverable.</p>
+**Backend and data:** Java, Spring Boot, Spring Security, JPA, PostgreSQL, Python, FastAPI, REST APIs  
+**Frontend and integration:** TypeScript, Angular, Next.js, React, Odoo, JSON-RPC  
+**Delivery and applied AI:** Docker, AWS, CI/CD, retrieval workflows, model evaluation
 
-<p><strong>Technologies</strong><br>
-<code>Power BI</code> <code>DAX</code> <code>Power Apps</code> <code>Dataverse</code> <code>Data Modelling</code></p>
+I’m completing an engineering degree in Software Engineering and Digital Systems at EMSI Rabat, with graduation planned for 2027. I work in Arabic, French, and English.
 
-</td>
-<td width="50%" valign="top">
-
-<h3>Previzma</h3>
-
-<strong>Independent engineering project, B2B sales forecasting</strong><br>Personal product<br><sub>April 2026<br>Present</sub>
-
-<p>Previzma explores a problem I repeatedly encounter in enterprise contexts. ERP systems record transactions, while managers need signals, explanations, and decisions. I am building a distributed application that turns sales history into forecasts, operational alerts, and What If simulations for industrial B2B teams.</p>
-
-<p>Spring Boot remains the business and security core. FastAPI contains the machine learning service and stays isolated from authentication and persistence. Angular presents the results through segment based indicators, backtesting, model comparison, and a statistical fallback when the available data is not strong enough for a serious prediction.</p>
-
-<p><strong>Technologies</strong><br>
-<code>Spring Boot</code> <code>FastAPI</code> <code>Angular</code> <code>PostgreSQL</code> <code>LightGBM</code> <code>XGBoost</code></p>
-
-</td>
-</tr>
-<tr>
-<td colspan="2" valign="top">
-
-<h3>Other experience that shaped how I build</h3>
-
-<strong>Software Engineering Intern, ERP scope with team leadership responsibilities</strong><br>General Secretariat of the Government of Morocco<br><sub>July 2025<br>August 2025</sub>
-
-<p>I contributed to an end to end Odoo implementation for the Direction of the Official Printing Office. The work covered business analysis, BPMN, RBAC, approval workflows, custom Python modules, PostgreSQL, documentation, and knowledge transfer across sales, subscriptions, stock, manufacturing, accounting, CRM, and human resources. This experience taught me to begin with the organisation itself, including its language, responsibilities, exceptions, and operational sequence.</p>
-
-<strong>Independent consultant and full stack developer</strong><br>Self employed<br><sub>June 2025<br>Present</sub>
-
-<p>Alongside my main contracts, I have delivered projects for small businesses and explored different product environments. Morocco Atlas Adventure gave me practical experience in multilingual delivery, SEO, deployment, and client handover. Bnin pushed me toward React Native, contextual AI, mobile product thinking, and local first user experience. Earlier projects such as Cashaura and Listo built my foundation in Java architecture, Django REST APIs, authentication, relational modelling, and collaborative delivery.</p>
-
-</td>
-</tr>
-</table>
-
-Toolkit
-
-<table>
-<tr>
-<td width="24%" valign="top"><strong>Backend and services</strong></td>
-<td>Java with Spring Boot, Python with FastAPI and Django, Node.js with Express, C# with ASP.NET Core, Laravel, and REST APIs.</td>
-</tr>
-<tr>
-<td width="24%" valign="top"><strong>Frontend and mobile</strong></td>
-<td>Angular, React, Next.js, TypeScript, React Native, and Expo.</td>
-</tr>
-<tr>
-<td width="24%" valign="top"><strong>Data and enterprise systems</strong></td>
-<td>PostgreSQL, Row Level Security, pgvector, Redis, Odoo, SQL Server, Oracle, MongoDB, and MySQL.</td>
-</tr>
-<tr>
-<td width="24%" valign="top"><strong>Cloud and delivery</strong></td>
-<td>AWS, Docker, GitHub Actions, continuous integration and delivery, Vercel, Netlify, and k6.</td>
-</tr>
-<tr>
-<td width="24%" valign="top"><strong>Architecture and applied AI</strong></td>
-<td>Multi tenant SaaS, distributed workflows, idempotence, RBAC, BPMN, retrieval pipelines, workflow automation, and model evaluation.</td>
-</tr>
-</table>
-
-<p align="center">
-  <img src="https://skillicons.dev/icons?i=java,spring,python,fastapi,nodejs,dotnet,angular,react,nextjs,ts,postgres,redis,docker,aws,githubactions&perline=15" alt="Technologies used by Achraf Malki" />
-</p>
-
-Education and certifications
-
-I am completing an engineering degree in Software Engineering and Digital Systems at EMSI Rabat, with graduation planned for 2027. My selected certifications include AWS Cloud Technical Essentials, Google Agile Project Management, Meta React Native, HarvardX CS50, IBM Python, and IBM Node.js with Express.
-
-Arabic is my native language. I work professionally in French and English.
+---
 
 <div align="center">
-  <h3>I like serious engineering problems, clear conversations, and products that remain useful after delivery.</h3>
-  <p>
-    <a href="https://achrafmalki.dev">Portfolio</a> &nbsp;•&nbsp;
-    <a href="https://www.linkedin.com/in/achraf-malki">LinkedIn</a> &nbsp;•&nbsp;
-    <a href="mailto:achrafmalki.eng@gmail.com">Email</a>
-  </p>
+  <strong>Interested in a final-year internship that can grow into a long-term engineering role.</strong><br />
+  <a href="mailto:achrafmalki.eng@gmail.com">Let’s talk</a> ·
+  <a href="https://achrafmalki.dev">Explore my work</a>
 </div>
