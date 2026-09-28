@@ -66,7 +66,7 @@ The public catalogue stays fast and indexable, while prices and stock remain beh
 
 ### DXC Technology Morocco
 
-**Engineering Intern, Business Intelligence & Business Applications** · July 2026–present  
+**Engineering Intern, Business Intelligence & Business Applications** · July 2026– September 2026  
 *Insurance Service Line · Run teams*
 
 I am building a management system for competency coverage in production teams. The work starts with operational data and business-rule validation, then turns that information into indicators managers can use.
