@@ -44,7 +44,8 @@ Much of my work for employers and clients lives in private repositories. The exp
 
 ## Selected experience
 
-### <img src="./nortis-logo.png" alt="" height="30" /> Nortis Studio · MAGMA
+### Nortis Studio · MAGMA 
+<img src="./nortis-logo.png" alt="" height="30" />
 
 **Software Engineer, AI & Cloud** · January 2026–present
 
