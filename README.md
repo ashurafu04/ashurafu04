@@ -53,8 +53,8 @@ MAGMA is a B2B intelligence platform coordinating concurrent AI workflows. The c
 I architected its Portier/Worker orchestration model, strict idempotence rules, PostgreSQL Row Level Security, immutable audit trail, and Zero PII data lifecycle. The AI layer combines retrieval, structural validation, and hallucination controls to make outputs more dependable in a business setting.
 
 `FastAPI` · `Node.js` · `PostgreSQL` · `pgvector` · `n8n` · `LLM` · `RAG`
-
-### <img src="./chamiong-corp.png" alt="" height="30" /> Chamiong
+### Chamiong
+<img src="./chamiong-corp.png" alt="" height="60" />
 
 **Full Stack Engineer, Headless ERP & B2B** · November 2025–present
 
@@ -64,7 +64,8 @@ The public catalogue stays fast and indexable, while prices and stock remain beh
 
 `Next.js` · `React` · `TypeScript` · `Sanity` · `Odoo` · `JSON-RPC`
 
-### <img src="./logo-dxc.png" alt="" height="30" /> DXC Technology Morocco
+### DXC Technology Morocco
+<img src="./logo-dxc.png" alt="" height="60" />
 
 **Engineering Intern, Business Intelligence & Business Applications** · July 2026–September 2026  
 *Insurance Service Line · Run teams*
@@ -75,7 +76,8 @@ It spans the competency model, data pipeline, Power BI dashboards, and the appli
 
 `Power BI` · `DAX` · `Power Apps` · `Dataverse` · `Data modelling`
 
-### <img src="./previzma-logo.png" alt="" height="30" /> Previzma
+### Previzma 
+<img src="./previzma-logo.png" alt="" height="60" /> 
 
 **Independent engineering project, B2B sales intelligence** · April 2026–present
 
@@ -95,7 +97,8 @@ The published MVP uses a statistical forecasting baseline by default. A trained 
 
 ## Other experience that shaped how I build
 
-### <img src="./sgg-logo.png" alt="" height="30" /> General Secretariat of the Government of Morocco
+### General Secretariat of the Government of Morocco
+<img src="./sgg-logo.png" alt="" height="60" /> 
 
 **Software Engineering Intern, ERP scope with team leadership responsibilities** · July–August 2025
 
